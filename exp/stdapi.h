@@ -71,7 +71,7 @@ private:
 	string _clsName;
 };
 
-/* Part 6. implementation of some simple class
+/* Part 6. implementation of some simple function
  */
 void friendFunction(Meta& meta) {
 	meta._clsName = "cls_meta";
