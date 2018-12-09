@@ -9,4 +9,6 @@ void va_param(int arg_1, int arg_2, int arg_3, ...) {
 		int arg = va_arg(va_p, int);
 		printf("arg %d = %d", i, arg);
 	}
+	// Finally, release the space of va_p.
+	va_end(va_p);
 }
